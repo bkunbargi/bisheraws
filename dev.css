@@ -1,0 +1,100 @@
+
+body{
+  margin:0;
+  height: 100%;
+  width: 100%;
+}
+
+.page-div {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.top-page {
+  height:15%;
+}
+
+.nav-links {
+  display:flex;
+  margin: auto;
+  width: 50%;
+  justify-content: space-around;
+  top:50%;
+  position: relative;
+
+}
+
+.page-links {
+  font-size: 20px;
+  color:black;
+  font-weight:bold;
+}
+
+.bottom-page {
+  height:85%;
+}
+
+.post-wrapper {
+
+  display:flex;
+  flex-direction: column;
+  flex-grow: 1;
+  border:3px solid black;
+  border-radius:2px;
+  height:auto;
+  margin-left:100px;
+  margin-right:100px;
+  justify-content: space-around;
+
+}
+
+.post-content{
+  border:2px solid grey;
+  border-radius: 2px;
+  width:75%;
+  height:auto;
+  align-self: center;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom:10px;
+}
+
+.header-date{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.date{
+  margin-right:2%;
+}
+
+.title{
+  margin-left:2.5%;
+}
+
+/* specifically for proejcts.html craigslist */
+
+.tag-selector{
+  display:flex;
+  flex-direction: column;
+
+}
+
+.tag-top{
+  display:flex;
+  justify-content: center;
+
+}
+
+.search-submit{
+  position: relative;
+
+}
+
+.search-button{
+  position: absolute;
+  bottom:0px;
+  border-radius: 5px;
+}
